@@ -19,4 +19,5 @@ export const globalConstants = {
   PUT: 'PUST',
   POST: 'POST',
   DELETE: 'DELETE',
+  LOGIN: 'auth/login',
 };

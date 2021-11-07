@@ -3,7 +3,7 @@
 Make sure you have installed Nodejs and MongoDB.
 Clone the source code and run the following commands in to the root directory. 
 
-npm install 
+npm install  <br>
 npm run start
 
 Open post man and hit this url to login. Get the JWT bearer token and use it in the headers for every further request.

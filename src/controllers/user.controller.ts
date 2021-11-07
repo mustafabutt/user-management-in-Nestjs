@@ -39,7 +39,7 @@ export class UserController {
   }
 
   @Get()
-  async fetchAll(@Res() responses) {
+  async fetchAll(@Res() response) {
     try {
       const users = await this.userService.readAll();
       return response.status(HttpStatus.OK).json({
